@@ -6,7 +6,7 @@ body {
     color: #333;
   }
   
-  /* Container */
+  /* Style the container */
   .container {
     max-width: 960px;
     margin: 0 auto;
@@ -16,11 +16,14 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  /* Headings */
+  /* Style the headings */
   h1 {
-    font-size: 36px;
-    color: #333;
+    font-size: 60px;
+    color: #00796B;
     text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
   }
   
   h2 {
@@ -29,12 +32,12 @@ body {
     text-align: center;
   }
   
-    /* Buttons */
-    .waves-effect.waves-light.btn {
+  /* Style the button */
+  .waves-effect.waves-light.btn {
     background-color: #00796B;
     color: #fff;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 12px 24px;
     text-align: center;
     display: inline-block;
     border: none;
@@ -49,7 +52,7 @@ body {
     background-color: #005a4f;
   }
   
-  /* Links */
+  /* Style links */
   a {
     color: #00796B;
     text-decoration: none;
@@ -57,7 +60,4 @@ body {
   
   a:hover {
     color: #005a4f;
-    text-decoration: none;
   }
-  
-  
