@@ -6,58 +6,71 @@ body {
     color: #333;
   }
   
-  /* Style the container */
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Style the headings */
-  h1 {
-    font-size: 60px;
-    color: #00796B;
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-  }
-  
-  h2 {
-    font-size: 24px;
-    color: #666;
-    text-align: center;
-  }
-  
-  /* Style the button */
-  .waves-effect.waves-light.btn {
-    background-color: #00796B;
-    color: #fff;
-    font-weight: bold;
-    padding: 12px 24px;
-    text-align: center;
-    display: inline-block;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-    border-radius: 8px;
-    line-height: 1;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .waves-effect.waves-light.btn:hover {
-    background-color: #005a4f;
-  }
-  
-  /* Style links */
-  a {
-    color: #00796B;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #005a4f;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Container Style */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Style */
+h1 {
+  font-size: 60px;
+  color: #00796B;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #666;
+  text-align: center;
+}
+
+/* Button Style */
+.waves-effect.waves-light.btn {
+  background-color: #00796B;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 24px;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 8px;
+  line-height: 1;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.waves-effect.waves-light.btn:hover {
+  background-color: #005a4f;
+}
+
+/* Link Style */
+a {
+  color: #00796B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005a4f;
+}
+
+/* Centre input text */
+.centered-input {
+  text-align: center;
+}
