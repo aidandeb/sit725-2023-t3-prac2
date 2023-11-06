@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3000; // Define the port to listen on
+const port = process.env.PORT || 5500;
 
 app.get('/add', (req, res) => {
   const num1 = parseFloat(req.query.num1 || 0);
