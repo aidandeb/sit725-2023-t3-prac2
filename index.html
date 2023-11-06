@@ -13,19 +13,31 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="container center-align"> <!-- Added "center-align" to center its content -->
+  <div class="container center-align">
     <div class="row">
       <div class="col s12">
         <h1 id="heading" class="center-align">SIT 725</h1>
         <h2 id="heading" class="center-align">Aidan Debernardi</h2>
-        <p class="center-align">Software and Services Developer</p> </p>
+        <p class="center-align">Software and Services Developer</p>
       </div>
       <div class="col s12 center-align">
-        <a href="https://www.linkedin.com/in/aidan-debernardi-6150a0292/?originalSubdomain=au" target="_blank" class="waves-effect waves-light btn">Visit LinkedIn Profile</a>
+        <input type="number" id="num1" class="centered-input" placeholder="Enter the first number">
+        <input type="number" id="num2" class="centered-input" placeholder="Enter the second number">
+        <button class="waves-effect waves-light btn" onclick="performCalculation()">Add Numbers</button>
+        <p id="result" class="center-align"></p>
       </div>
     </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="js/scripts.js"></script>
+  <script>
+    function performCalculation() {
+      const num1 = parseFloat(document.getElementById("num1").value);
+      const num2 = parseFloat(document.getElementById("num2").value);
+
+      const result = num1 + num2;
+
+      document.getElementById("result").innerHTML = `Result: ${result}`;
+    }
+  </script>
 </body>
 </html>
